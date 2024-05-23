@@ -4,6 +4,6 @@ invited. forEach((element, indice) →{
 });
     
 const TavoloVip = invited.map((element) → {
-    return prodotto + '9c' + 'black'
+    return element + '9c' + 'black'
 
 });
