@@ -24,8 +24,9 @@ const bicycle = [
 const lightBicycle = [];
 let peso = 0;
 bicycle.forEach((bicicletta)=> {
-    weight += Number.parseInt(bicicletta.peso, 10);
+    peso += Number.parseInt(bicicletta.peso, 10);
     if (bicicletta.peso < 7.1){
     lightBicycle.push(bicicletta)
+    }
 });
 console.log(peso, lightBicycle);
